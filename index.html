@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ekasdeep Singh | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #101820;
+      color: #f5f5f5;
+      line-height: 1.7;
+    }
+
+  
+    header {
+      background: #16213e;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.25);
+      flex-wrap: wrap;
+    }
+
+    .header-left {
+      max-width: 60%;
+    }
+
+    header h1 {
+      color: #ff4e6b;
+      font-size: 2.7em;
+      letter-spacing: 1.5px;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    header h4 {
+      color: #b0b0b0;
+      font-weight: 400;
+      font-size: 1.1em;
+      margin-bottom: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00ffd5;
+      box-shadow: 0 0 10px rgba(0, 255, 213, 0.4);
+    }
+
+    
+    .section {
+      padding: 48px 20px 32px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section:not(:first-child) {
+      border-top: 1px solid #232b3e;
+      margin-top: 18px;
+    }
+
+    .section h2 {
+      color: #ffa600;
+      margin-bottom: 24px;
+      font-size: 1.7em;
+      font-weight: 600;
+      letter-spacing: 0.7px;
+      border-left: 4px solid #ff4e6b;
+      padding-left: 12px;
+    }
+
+  
+    .card {
+      background: #1e2532;
+      padding: 28px 26px;
+      border-radius: 14px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.18);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px) scale(1.01);
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
+    }
+
+    .card h3 {
+      color: #00ffd5;
+      margin-bottom: 12px;
+      font-size: 1.22em;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+    }
+
+    .card p, .card ul {
+      color: #e0e0e0;
+      font-size: 1.05em;
+    }
+
+    .card ul {
+      padding-left: 20px;
+    }
+
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin-top: 10px;
+    }
+
+    .skill-badge {
+      background: #232b3e;
+      color: #00ffd5;
+      border-radius: 8px;
+      padding: 7px 18px;
+      font-size: 1em;
+      font-weight: 500;
+      margin-bottom: 6px;
+      display: inline-block;
+      letter-spacing: 0.2px;
+      border: 1px solid #23304a;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    }
+
+  
+    .contact {
+      text-align: center;
+      margin-top: 36px;
+    }
+
+    .contact a {
+      color: #00bfff;
+      text-decoration: none;
+      margin: 0 14px;
+      font-weight: 500;
+      transition: color 0.15s;
+      font-size: 1.08em;
+    }
+
+    .contact a:hover {
+      color: #ffa600;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 22px;
+      background: #16213e;
+      color: #b0b0b0;
+      font-size: 1em;
+      letter-spacing: 0.2px;
+      margin-top: 30px;
+    }
+
+   
+    @media (max-width: 700px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .header-left {
+        max-width: 100%;
+      }
+
+      .profile-pic {
+        margin-top: 20px;
+      }
+
+      .section {
+        padding: 32px 10px 18px 10px;
+      }
+
+      .card {
+        padding: 18px 14px;
+      }
+
+      .section h2 {
+        font-size: 1.3em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-left">
+      <h1>Ekasdeep Singh</h1>
+      <h4>Computer Science Engineer</h4>
+      <h4>Roll No: 1213</h4>
+    </div>
+    <img src="./WhatsApp Image 2025-11-05 at 20.10.13_eaf9c04e.jpg" alt="Ekasdeep Singh" class="profile-pic">
+  </header>
+
+  <section class="section" id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am Ekasdeep Singh, a passionate Computer Science student with a keen interest in animation, graphic designing, and web development. I enjoy drawing and painting in my free time, which fuels my creativity and attention to detail in my tech projects. I am enthusiastic about learning new technologies and applying them to create engaging digital experiences. Though I am at the beginning of my journey, I am committed to honing my skills and contributing to innovative projects in the tech world.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <div class="skills-list">
+        <span class="skill-badge">Communication</span>
+        <span class="skill-badge">Teamwork</span>
+        <span class="skill-badge">Confidence</span>
+        <span class="skill-badge">Creativity</span>
+        <span class="skill-badge">Adaptability</span>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="interests">
+    <h2>Interests</h2>
+    <div class="card">
+      <ul>
+        <li>Animation</li>
+        <li>Graphic Designing</li>
+        <li>Web Development</li>
+        <li>Drawing Anime Characters</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section class="section" id="achievements">
+    <h2>Achievements</h2>
+    <div class="card">
+      <ul>
+        <li>Played Kho-Kho at PTIS level and won a Bronze medal in 2024 and a Silver medal in 2025.</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section class="section contact" id="contact">
+    <h2>Contact</h2>
+    <p>
+      <a href="tel:+919464792775">Phone</a>
+      <a href="mailto:s.ekasdeepahluwalia@gmail.com">Email</a>
+      <a href="https://github.com/Ekasdeep-Singh" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/Ekasdeep-Singh" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+ 
+  <footer>
+    <p>&copy; 2025 Ekasdeep Singh. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
